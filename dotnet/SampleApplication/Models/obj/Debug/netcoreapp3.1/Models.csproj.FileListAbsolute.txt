@@ -1,0 +1,8 @@
+E:\cla\profile\dotnet\SampleApplication\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+E:\cla\profile\dotnet\SampleApplication\Models\bin\Debug\netcoreapp3.1\Models.dll
+E:\cla\profile\dotnet\SampleApplication\Models\bin\Debug\netcoreapp3.1\Models.pdb
+E:\cla\profile\dotnet\SampleApplication\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+E:\cla\profile\dotnet\SampleApplication\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+E:\cla\profile\dotnet\SampleApplication\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+E:\cla\profile\dotnet\SampleApplication\Models\obj\Debug\netcoreapp3.1\Models.dll
+E:\cla\profile\dotnet\SampleApplication\Models\obj\Debug\netcoreapp3.1\Models.pdb

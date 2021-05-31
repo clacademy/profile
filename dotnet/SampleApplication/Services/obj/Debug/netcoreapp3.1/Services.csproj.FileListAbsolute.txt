@@ -1,0 +1,12 @@
+E:\cla\profile\dotnet\SampleApplication\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+E:\cla\profile\dotnet\SampleApplication\Services\bin\Debug\netcoreapp3.1\Services.dll
+E:\cla\profile\dotnet\SampleApplication\Services\bin\Debug\netcoreapp3.1\Services.pdb
+E:\cla\profile\dotnet\SampleApplication\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+E:\cla\profile\dotnet\SampleApplication\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+E:\cla\profile\dotnet\SampleApplication\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+E:\cla\profile\dotnet\SampleApplication\Services\obj\Debug\netcoreapp3.1\Services.dll
+E:\cla\profile\dotnet\SampleApplication\Services\obj\Debug\netcoreapp3.1\Services.pdb
+E:\cla\profile\dotnet\SampleApplication\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+E:\cla\profile\dotnet\SampleApplication\Services\bin\Debug\netcoreapp3.1\Models.dll
+E:\cla\profile\dotnet\SampleApplication\Services\bin\Debug\netcoreapp3.1\Models.pdb
+E:\cla\profile\dotnet\SampleApplication\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
