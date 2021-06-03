@@ -1,0 +1,13 @@
+import { ProofProfileBase } from './prof-profile.base';
+
+
+export class DropdownType extends ProofProfileBase<string> {
+  controlType = 'dropdown';
+  options: {key: string, value: string}[] = [];
+
+  constructor(options: {} = {}) {
+    super(options);
+    // tslint:disable-next-line:no-string-literal
+    this.options = options['options'] || [];
+  }
+}

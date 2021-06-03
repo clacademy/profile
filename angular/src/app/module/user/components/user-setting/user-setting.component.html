@@ -1,0 +1,86 @@
+
+<div  class="row mt-2">
+  <div class="col-md-12">
+    <form [formGroup]="userSettingForm" (ngSubmit)="saveUserSettingInfo()">
+      <div class="card">
+        <div class="card-header bg-card-header"><i class="fa fa-user"></i> User Setting</div>
+        <p-accordion [multiple]="false">
+          <p-accordionTab header="Description" [selected]="false">
+            <ul>
+              <li><strong>Time Zone</strong> - Specify showing all times in UTC time or the local time of your computer.</li>
+              <li><strong>Date Format</strong> - Date format for July 28, 2020, see examples below.
+                <ul>
+                  <li><i>MM/dd/yyyy</i> 07/28/2020.</li>
+                  <li><i>dd-MMM-yyyy</i> 28-Jul-2020</li>
+                </ul>  
+              </li>
+              <li><strong>Unsubscribe from Role based Email Notifications</strong> - If set to true (blue check), then any email notifications 
+                based on any role you are assigned to will not be sent to you. For example, if you're in the Asurion role, and a new LetterCode is created, with this unsubscribe checked, 
+                you will not receive an email that the Letter Code was created.</li>
+            </ul>  
+          </p-accordionTab>
+        </p-accordion>
+        <div class="card-body">
+          <div class="row">
+
+            <div class="col-sm-4">
+              <label>Time Zone:</label>
+              <div class="form-group">
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" value="true" formControlName="timeZoneCtrl">UTC
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" value="false" formControlName="timeZoneCtrl">Local Time
+                    Zone
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+
+              <label>Date Format:</label>
+              <div class="form-group">
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" formControlName="dateFormatCtrl"
+                      value="MM/dd/yyyy">MM/dd/yyyy
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <input type="radio" class="form-check-input" formControlName="dateFormatCtrl"
+                      value="dd-MMM-yyyy">dd-MMM-yyyy
+                  </label>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-4">
+
+              <label>Unsubscribe from Role based Email Notifications:</label>
+              <div class="form-group">
+                <div class="form-check-inline">
+                  <label class="form-check-label">
+                    <div class="custom-control custom-switch">
+                      <input type="checkbox" class="custom-control-input" id="customSwitch1" formControlName="isIgnoreEmailNotificationsCtrl">
+                      <label class="custom-control-label" for="customSwitch1"> </label>
+                    </div>
+                  </label>
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-default" [routerLink]="['/']">Cancel</button>
+          <button type="submit" class="btn btn-success"> Save</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

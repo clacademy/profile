@@ -1,0 +1,41 @@
+<app-header [navbarBrandRouterLink]="['/']" [fixed]="true"
+  [navbarBrandFull]="{src: 'assets/img/logo-white.png', width: 140, alt:'Asurion'}"
+  [navbarBrandMinimized]="{src: 'assets/img/sygnet.png', width: 30, alt:'Asurion'}" [sidebarToggler]="'lg'"
+  [asideMenuToggler]="false" [mobileAsideMenuToggler]="false">
+ 
+  <ul class="nav navbar-nav ml-auto"> 
+    <li class="nav-item dropdown"> 
+      <a class="nav-link" data-toggle="dropdown" href="javascript:void(0)" role="button"
+        aria-haspopup="true" aria-expanded="false"> 
+        <span class="img-avatar">{{currentUser?.profile.givenname}} {{currentUser?.profile.surname}}</span>
+      </a>
+
+      <div class="dropdown-menu dropdown-menu-right"> 
+        <a class="dropdown-item" href="javascript:void(0);"> 
+          <i class="fa fa-user"></i> Profile</a> <a class="dropdown-item" href="javascript:void(0)"
+          [routerLink]="['/user/setting']"> <i class="fa fa-wrench"></i> Settings</a>
+        <a class="dropdown-item" [routerLink]="['/user']" *ngIf="isSysAdmin"> <i class="fa fa-user"></i> User
+          Management</a>
+        <a class="dropdown-item" href="javascript:void(0)" (click)="onLogout()"> <i class="fa fa-lock"></i> Logout</a>
+      </div>
+    </li>
+  </ul>
+</app-header>
+
+<div class="app-body">
+  <app-sidebar [fixed]="true" [display]="'lg'">
+    <app-sidebar-nav [navItems]="navItems" [perfectScrollbar] [disabled]="sidebarMinimized"></app-sidebar-nav>
+    <app-sidebar-minimizer></app-sidebar-minimizer>
+  </app-sidebar>
+  <main class="main">
+    <p-breadcrumb *ngIf="breadCrumbData" [model]="breadCrumbData"></p-breadcrumb>
+    <div class="container-fluid">
+      <div class="animated fadeIn">
+        <router-outlet *ngIf="currentUser"></router-outlet>
+      </div>
+    </div>
+  </main>
+</div>
+<app-footer>
+  &copy; Asurion {{currentyear}}. All Rights Reserved.
+</app-footer>

@@ -1,0 +1,77 @@
+<h2 class="bd-title">User Management</h2>
+<div class="row">
+  <div class="col-md-12">
+    <form [formGroup]="userFilterForm" (ngSubmit)="onSubmit()">
+      <div class="card bg-light text-dark">
+        <div class="card-header bg-card-header text-white"><i class="fa fa-search"></i> Search</div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label>Search by Username/Email:</label>
+                <input type="text" class="form-control" formControlName="searchCtrl">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <button type="button" class="btn btn-default" (click)="reset()">Reset</button>
+          <button type="submit" class="btn btn-success">Search</button>
+        </div>
+      </div>
+    </form>
+    <div class="card">
+      <div class="card-header bg-card-header text-white">
+        <i class="fa fa-user-circle-o"></i> User List
+      </div>
+      <div class="card-body">
+        <div class="pull-right mb-3"><a href="javascript:void(0)" class="btn btn-success"
+            [routerLink]="['/user/add']">New User <i class="fa fa-plus-circle"></i></a>
+        </div>
+        <div class="clearfix"></div>
+        <p-table #pt [columns]="setHeader" [value]="gridData" [lazy]="isloading" (onLazyLoad)="loadUserLazy($event)"
+          [paginator]="totalRowCount > 0? true: false" [rows]="defaultRow" [totalRecords]="totalRowCount"
+          [rowsPerPageOptions]="rowFilterOption" [responsive]="true">
+          <ng-template pTemplate="header" let-columns>
+            <tr>
+              <th *ngFor="let col of columns" [pSortableColumn]="col.field"
+                [pSortableColumnDisabled]="col.field === 'action' || totalRowCount===0 || col.field === 'userRoles'">
+                {{col.header}}
+                <p-sortIcon [field]="col.field"
+                  *ngIf="col.field != 'action' && totalRowCount>0 && col.field != 'userRoles' "></p-sortIcon>
+              </th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-res>
+            <tr>
+              <td></td>
+            </tr>
+          </ng-template>
+
+          <ng-template pTemplate="body" let-rowData let-columns="columns">
+            <tr>
+              <td *ngFor="let col of columns">
+                <span class="ui-column-title">{{col.header}}</span>
+                <span *ngIf="col.field != 'action' && col.field != 'userRoles'">{{rowData[col.field]}}</span>
+                <span *ngIf="col.field == 'userRoles'">
+                  {{getuserRoles(rowData[col.field])}}
+                </span>
+                <span *ngIf="col.field == 'action'"> <button class="btn btn-primary btn-sm"
+                    (click)="editUser(rowData.applicationUserId)"><i class="fa fa-edit"></i></button>
+                  <button class="btn btn-danger btn-sm" *ngIf="rowData.isEnabled" title="Disable"
+                    (click)="updateUserStatus('disable', rowData)"><i class="fa fa-ban"></i></button>
+                  <button class="btn btn-danger btn-sm" *ngIf="!rowData.isEnabled" title="Enable"
+                    (click)="updateUserStatus('enable', rowData)"><i class="fa fa-check"></i></button></span>
+              </td>
+            </tr>
+          </ng-template>
+
+        </p-table>
+        <div class="px-1" *ngIf="totalRowCount===0">
+          No records found.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
