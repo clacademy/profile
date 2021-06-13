@@ -1,0 +1,17 @@
+G:\Development\Social\Social\Social.Infrastructure\bin\Debug\netcoreapp2.0\Social.Infrastructure.deps.json
+G:\Development\Social\Social\Social.Infrastructure\bin\Debug\netcoreapp2.0\Social.Infrastructure.dll
+G:\Development\Social\Social\Social.Infrastructure\bin\Debug\netcoreapp2.0\Social.Infrastructure.pdb
+G:\Development\Social\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.csproj.CoreCompileInputs.cache
+G:\Development\Social\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.AssemblyInfoInputs.cache
+G:\Development\Social\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.AssemblyInfo.cs
+G:\Development\Social\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.dll
+G:\Development\Social\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.pdb
+E:\Development\Social\Social.Infrastructure\bin\Debug\netcoreapp2.0\Social.Infrastructure.deps.json
+E:\Development\Social\Social.Infrastructure\bin\Debug\netcoreapp2.0\Social.Infrastructure.dll
+E:\Development\Social\Social.Infrastructure\bin\Debug\netcoreapp2.0\Social.Infrastructure.pdb
+E:\Development\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Development\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.AssemblyInfoInputs.cache
+E:\Development\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.AssemblyInfo.cs
+E:\Development\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.dll
+E:\Development\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.pdb
+E:\Development\Social\Social.Infrastructure\obj\Debug\netcoreapp2.0\Social.Infrastructure.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+E:\Development\Social\Social.Common\bin\Debug\netcoreapp2.1\Social.Common.deps.json
+E:\Development\Social\Social.Common\bin\Debug\netcoreapp2.1\Social.Common.dll
+E:\Development\Social\Social.Common\bin\Debug\netcoreapp2.1\Social.Common.pdb
+E:\Development\Social\Social.Common\obj\Debug\netcoreapp2.1\Social.Common.csproj.CoreCompileInputs.cache
+E:\Development\Social\Social.Common\obj\Debug\netcoreapp2.1\Social.Common.AssemblyInfoInputs.cache
+E:\Development\Social\Social.Common\obj\Debug\netcoreapp2.1\Social.Common.AssemblyInfo.cs
+E:\Development\Social\Social.Common\obj\Debug\netcoreapp2.1\Social.Common.dll
+E:\Development\Social\Social.Common\obj\Debug\netcoreapp2.1\Social.Common.pdb
+E:\Development\Social\Social.Common\obj\Debug\netcoreapp2.1\Social.Common.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+E:\Development\Social\Social.Application\bin\Debug\netcoreapp2.1\Social.Application.deps.json
+E:\Development\Social\Social.Application\bin\Debug\netcoreapp2.1\Social.Application.dll
+E:\Development\Social\Social.Application\bin\Debug\netcoreapp2.1\Social.Application.pdb
+E:\Development\Social\Social.Application\bin\Debug\netcoreapp2.1\Social.Domain.dll
+E:\Development\Social\Social.Application\bin\Debug\netcoreapp2.1\Social.Persistence.dll
+E:\Development\Social\Social.Application\bin\Debug\netcoreapp2.1\Social.Domain.pdb
+E:\Development\Social\Social.Application\bin\Debug\netcoreapp2.1\Social.Persistence.pdb
+E:\Development\Social\Social.Application\obj\Debug\netcoreapp2.1\Social.Application.csprojResolveAssemblyReference.cache
+E:\Development\Social\Social.Application\obj\Debug\netcoreapp2.1\Social.Application.csproj.CoreCompileInputs.cache
+E:\Development\Social\Social.Application\obj\Debug\netcoreapp2.1\Social.Application.AssemblyInfoInputs.cache
+E:\Development\Social\Social.Application\obj\Debug\netcoreapp2.1\Social.Application.AssemblyInfo.cs
+E:\Development\Social\Social.Application\obj\Debug\netcoreapp2.1\Social.Application.dll
+E:\Development\Social\Social.Application\obj\Debug\netcoreapp2.1\Social.Application.pdb
