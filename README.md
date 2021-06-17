@@ -8,6 +8,7 @@
 	technologies, managing User Interface and its experience and Quality Assurance.
 	
 Conatct my mail: risasen.12@gmail.com, clacademyin@gmail.com
+
 	Hi,
 	We are a group of individual contributors working with different reputed organizations and dedicated resources experts in SDLC of any kind of software project. We are 	dedicated developers, individual contributors in the expertise of various phases of project development like Architect level, Database Design, Development with latest technologies, managing User Interface and its experience and Quality Assurance. We enjoy turning complex problems into simple, scalable, and intuitive designs.
 
